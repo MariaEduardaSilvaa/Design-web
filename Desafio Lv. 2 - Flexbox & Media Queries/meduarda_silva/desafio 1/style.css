@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra,.rodaper{
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.rodaper{
+    margin-top: 1rem;
+}
+
+.container{
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.sidebar1{
+    background-color: aquamarine;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.sidebar2{
+    background-color: rgb(13, 225, 155);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+@media(max-widt: 760px){
+    main{
+        flex-direction: column;
+    }
+}
